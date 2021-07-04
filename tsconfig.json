@@ -1,15 +1,16 @@
 {
   "compilerOptions": {
     "mapRoot": "./sketch/",
+    "rootDir": "./sketch/",
+    "sourceRoot": "./sketch/",
     "module": "none",
     "noImplicitAny": true,
     "outFile": "./build/build.js",
     "preserveConstEnums": true,
     "removeComments": true,
-    "rootDir": "./sketch/",
     "sourceMap": true,
-    "sourceRoot": "./sketch/",
-    "target": "es5",
-    "moduleResolution": "node"
+    "target": "es2020",
+    "moduleResolution": "node",
+    "esModuleInterop": true
   }
 }
